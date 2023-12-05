@@ -17,8 +17,8 @@ There are 4 notebook along with support folder that required to run the analysis
 
 The notebook
 
-5. `1_Steps_to_Generate_SPI_Using_CHIRPS_Data.ipynb`
-6. `2_Steps_to_Generate_SSI_Using_GloFAS-ERA5_Data.ipynb`
+5. [`1_Steps_to_Generate_SPI_Using_CHIRPS_Data.ipynb`](./1_Steps_to_Generate_SPI_Using_CHIRPS_Data.ipynb)
+6. [`2_Steps_to_Generate_SSI_Using_GloFAS-ERA5_Data.ipynb`](./2_Steps_to_Generate_SSI_Using_GloFAS-ERA5_Data.ipynb)
 7. `3_Drought_Propagation_Met2Hyd_Using_CCA.ipynb`
 
 	This is using Cross-Correlation for each pixel accross the entire time series, also employ noise filtering techniques like Singular Spectrum Analysis (SSA) which can help in isolate the underlying trends and patterns in our data before performing the CCA. This step is crucial for enhancing the signal-to-noise ratio in our datasets. 
