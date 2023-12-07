@@ -72,7 +72,7 @@ There are two map type that use to  illustrate the results of the cross-correlat
 
 **Strength Map** This map shows the strength of the correlation between meteorological and hydrological droughts. It highlights areas with a strong predictive relationship, indicating regions sensitive to meteorological changes.
 
-Below some example of the Strength Map from various time scale combinations and lag.
+Below some example of the individual Strength Map from various time scale combinations and lag.
 
 1. SPI 03 and SSI 03, Lag 1-month
 
@@ -90,6 +90,39 @@ Below some example of the Strength Map from various time scale combinations and 
 
 	![SM4](./prop/images/cor_spi12_ssi06_lag06.png)
 
+And below some example of the composite Strength and Lag Map from various time scale combinations.
+
+1. Most frequent correlation and Lag where the most frequent observe of SPI to SSI 3-month
+
+	![SM1](./prop/images/idn_cli_freq_corr_combination_1.png)
+
+2. Most frequent correlation and Lag where the most frequent observe of SPI to SSI 6-month
+
+	![SM2](./prop/images/idn_cli_freq_corr_combination_2.png)
+
+3. Most frequent correlation and Lag where the most frequent observe of SPI to SSI 9-month
+
+	![SM3](./prop/images/idn_cli_freq_corr_combination_3.png)
+
+4. Most frequent correlation and Lag where the most frequent observe of SPI to SSI 12-month
+
+	![SM4](./prop/images/idn_cli_freq_corr_combination_4.png)
+
+5. Maximum correlation and Lag where the maximum observe of SPI to SSI 3-month
+
+	![SM1](./prop/images/idn_cli_max_corr_combination_1.png)
+
+6. Maximum correlation and Lag where the maximum observe of SPI to SSI 6-month
+
+	![SM2](./prop/images/idn_cli_max_corr_combination_2.png)
+
+7. Maximum correlation and Lag where the maximum observe of SPI to SSI 9-month
+
+	![SM3](./prop/images/idn_cli_max_corr_combination_3.png)
+
+8. Maximum correlation and Lag where the maximum observe of SPI to SSI 12-month
+
+	![SM4](./prop/images/idn_cli_max_corr_combination_4.png)
 
 ---
 
