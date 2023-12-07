@@ -4,7 +4,7 @@ This repo contain notebook to analyze the propagation of **Meteorological Drough
 
 ## Data
 
-I use the **Standardized Precipitation Index** ([SPI](https://library.wmo.int/viewer/39629/download?file=wmo_1090_en.pdf&type=pdf&navigator=1)) - as proxy for meteorological drought, and the ([SPI](https://library.wmo.int/viewer/39629/download?file=wmo_1090_en.pdf&type=pdf&navigator=1)) - as proxy for hydrological drought. 
+I use the **Standardized Precipitation Index** ([SPI](https://library.wmo.int/viewer/39629/download?file=wmo_1090_en.pdf&type=pdf&navigator=1)) - as proxy for meteorological drought, and the ([SSI](https://doi.org/10.1029/2019WR026315) - as proxy for hydrological drought. 
 
 The SPI use monthly gridded Satellite precipitation estimates from Climate Hazards Group InfraRed Precipitation with Station data ([CHIRPS](https://doi.org/10.1038/sdata.2015.66)). 
 
