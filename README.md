@@ -12,7 +12,7 @@ The SSI use daily gridded River discharge in the last 24 hours from [GloFAS-ERA5
 
 ## Folder structure and files
 
-There are 4 notebook along with support folder that required to run the analysis. Feel free to use your own preferences for this setting/folder arrangements.
+There are 3 notebook along with support folder that required to run the analysis. Feel free to use your own preferences for this setting/folder arrangements.
 
 1. `hyd` # Files required to proceed the hydrological drought goes here.
 2. `met` # Files required to proceed the meteorological drought goes here.
