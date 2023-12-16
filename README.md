@@ -52,11 +52,33 @@ The drought characteristics originally following the method proposed by Yevjevic
 
 **Applying Singular Spectrum Analysis (SSA)** For noise filtering and trend extraction in drought magnitude data in SPI and SSI datasets. In drought propagation analysis, noise filtering with SSA is a critical step for data preparation. SSA effectively separates the underlying signal from the noise in climate datasets, such as SPI and SSI. 
 
+SSA decomposes a time series into a sum of components:
+
+`X(t) = T(t) + S(t) + N(t)`
+
+Where: </br>
+* `X(t)`: Original time series
+* `T(t)`: Trend component
+* `S(t)`: Seasonal component
+* `N(t)`: Noise component
+
 This process is crucial for enhancing the clarity and accuracy of the data, which in turn facilitates a more precise understanding of drought patterns and their progression.
 
 ### Analysis
 
 **Cross-Correlation Analysis** Especially when applied to data refined through SSA noise filtering, is pivotal in understanding drought propagation. This technique examines the relationship between different drought indicators across various time scales. By utilizing data filtered through SSA, which isolates the core signal from noise, Cross-Correlation Analysis can more accurately determine the time lag and intensity with which meteorological droughts (indicated by SPI) translate into hydrological droughts (indicated by SSI). 
+
+The cross-correlation coefficient `(ρxy(τ))` at `lag τ` is calculated as:
+
+`ρxy(τ) = ∑((Xi - X̄)(Yi+τ - Ȳ)) / √( ∑(Xi - X̄)2 ∑(Yi - Ȳ)2 )`
+
+where:</br>
+* `Xi`: Value of the first time series at time `i`
+* `Yi`: Value of the second time series at time `i + τ`
+* `τ`: Time lag
+* `X̄`: Mean of the first time series
+* `Ȳ`: Mean of the second time series
+* `N`: Number of data points
 
 This approach is essential for predicting the onset and progression of drought conditions, enabling timely decision-making and effective resource management to mitigate the adverse impacts of droughts.
 
@@ -123,6 +145,12 @@ And below some example of the composite Strength and Lag Map from various time s
 8. Maximum correlation and Lag where the maximum observe of SPI to SSI 12-month
 
 	![SM4](./prop/images/idn_cli_max_corr_combination_4.png)
+
+## To do
+
+Number of Lag from 1-12 month in the existing simulation is good enough. 
+
+Adding more time scale from `3, 6, 9, 12` to `1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12` and the combination, potentially produce more insight.
 
 ---
 
